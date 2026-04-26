@@ -127,7 +127,7 @@ AI 问答参数同样位于 `src/config/api.js`，包括：
 ```bash
 git init
 git add .
-git commit -m "chore: initialize toutiao news frontend"
+git commit -m "chore: initialize news frontend"
 git branch -M main
 git remote add origin <你的仓库地址>
 git push -u origin main
