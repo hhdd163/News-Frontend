@@ -1,8 +1,14 @@
 # Toutiao News Frontend
 
+![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white)
+![Vant](https://img.shields.io/badge/Vant-4-1989fa)
+![Pinia](https://img.shields.io/badge/Pinia-Store-f7c948)
+![License](https://img.shields.io/badge/License-Learning-lightgrey)
+
 一个基于 Vue 3 + Vite + Vant 的移动端新闻资讯前端项目，包含新闻浏览、分类切换、详情阅读、收藏、历史记录、用户登录注册、主题切换、多语言（中文/英文）以及 AI 问答功能。
 
-## 项目特性
+## ✨ 项目特性
 
 - 新闻首页：按分类加载新闻列表，支持下拉刷新与上拉加载
 - 新闻详情：展示正文、相关推荐，支持收藏
@@ -13,7 +19,7 @@
 - 主题系统：内置浅色、深色、蓝色、绿色主题
 - 移动端体验：底部 TabBar 导航、Vant 组件化 UI
 
-## 技术栈
+## 🧱 技术栈
 
 - 框架：Vue 3（Composition API）
 - 构建工具：Vite 7
@@ -24,7 +30,7 @@
 - AI 渲染：marked + DOMPurify
 - 国际化：vue-i18n
 
-## 目录结构
+## 🗂️ 目录结构
 
 ```text
 .
@@ -63,7 +69,7 @@
 └─ vite.config.js
 ```
 
-## 本地启动
+## 🚀 本地启动
 
 ### 1) 安装依赖
 
@@ -91,7 +97,7 @@ npm run build
 npm run preview
 ```
 
-## 后端接口说明
+## 🔌 后端接口说明
 
 当前前端通过 `src/config/api.js` 读取接口地址：
 
@@ -106,7 +112,7 @@ npm run preview
 
 请确保对应后端服务已启动并允许跨域访问。
 
-## AI 问答配置
+## 🤖 AI 问答配置
 
 AI 问答参数同样位于 `src/config/api.js`，包括：
 
@@ -116,7 +122,7 @@ AI 问答参数同样位于 `src/config/api.js`，包括：
 
 > 安全建议：不要在公开仓库中提交真实 API Key。建议改为环境变量（例如 `.env`）并在代码中读取。
 
-## GitHub 上传建议流程
+## ☁️ GitHub 上传建议流程
 
 ```bash
 git init
@@ -129,6 +135,6 @@ git push -u origin main
 
 如果你已经初始化过仓库，可从 `git add .` 开始。
 
-## License
+## 📄 License
 
 仅用于学习与演示。
