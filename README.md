@@ -1,4 +1,4 @@
-# Toutiao News Frontend
+# News Frontend
 
 ![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vue.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white)
